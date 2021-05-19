@@ -51,7 +51,7 @@ vamos a crear animaciones con el uso de ccs a partir de condicionales
   border-radius: 20px;
   /*aqui va la animacion*/
   animation-name: label-animation;
-  animation-duration: 5s;
+  animation-duration: 100s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
@@ -69,9 +69,9 @@ vamos a crear animaciones con el uso de ccs a partir de condicionales
 .loader-double {
   width: 64px;
   height: 64px;
-  border: 16px solid rgb(30, 230, 220);
-  border-top: 16px solid rgb(250, 50, 100);
-  border-bottom: 16px solid rgb(45, 45, 20);
+  border: 16px solid rgb(111, 88, 179);
+  border-top: 16px solid rgb(50, 250, 173);
+  border-bottom: 4px solid rgb(45, 45, 20);
   border-radius: 50%;
   animation: girar 2s ease-in-out infinite;
 }
